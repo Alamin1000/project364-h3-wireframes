@@ -11,20 +11,232 @@
 
 
 @media (max-width: 991px) {
- 
+    .hero-content {
+        margin-right: 0px;
+    }
+
+    .hero-hlp {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .hlp-input-out {
+        width: 100%;
+    }
+    .trust-slide {
+        padding: 18px 25px;
+    }
+    
+    .prov-box {
+        padding: 35px 17px 35px;
+        display: flex;
+    }
+    .prov-box .sq-rt-btn {
+        margin-left: auto;
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    .team-slider-outer {
+        --arrow-space: 0;
+    }
+
 }
 
 
 @media (max-width: 768px) {
- 
+    .header-logo {
+        width: 41px;
+        margin-left: -9px;
+    }
+    .main-menu ul li a {
+        font-size: 12px;
+    }
+
+    .header-in {
+        padding: 25px 0 15px;
+    }
+    .main-menu {
+        margin-top: 20px;
+    }
+    .hbp {
+        height: 8px;
+    }
+    .hero-content .h1 {
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+    }
+    .hero-content .h1 .hero-mobile-img {
+        width: 44%;
+        flex-shrink: 0;
+    }
+    .hero-section {
+        padding: 20px 0 20px;
+    }
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .hero-hlp h3 {
+        font-size: 18px;
+    }
+    .hero-hlp {
+        margin-top: 40px;
+    }
+    .input-x {
+        min-height: 44px;
+        padding: 12px 14px;
+        font-size: 14px;
+    }
+    .input-x.nice-select::after {
+        margin-top: -6px;
+    }
+    .input-x-sq {
+        font-size: 22px;
+        width: 44px;
+        height: 44px;
+    }
+    .hlp-input-out {
+        gap: 10px;
+    }
+
+    .h3 {
+        font-size: 18px;
+    }
+    .sec-title {
+        margin-bottom: 20px;
+    }
+    .service-section {
+        padding: 40px 0;
+    }
+
+    .service-card h4 {
+        font-size: 14px;
+    }
+    .service-card p {
+        font-size: 14px;
+    }
+    .sq-button {
+        font-size: 15px;
+        height: 44px;
+        width: 44px;
+    }
+    .trust-slide {
+        padding: 15px 10px;
+    }
+
+    .provider-section {
+        padding: 50px 0;
+    }
+    p {
+        font-size: 16px;
+    }
+    .prov-box h4 {
+        font-size: 16px;
+    }
+    .prov-box p {
+        font-size: 14px;
+    }
+    .about-section {
+        padding: 50px 0;
+    }
+
+    .team-card__content h4 {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .team-card__content p {
+        font-size: 14px;
+    }
+    .team-card {
+        padding: 17px 10px;
+    }
+    .team-section {
+        padding: 50px 0;
+    }
+
+    .contact-section {
+        padding: 55px 0;
+    }
+    .contact-bx .left h4 {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .contact-bx .left p {
+        font-size: 14px;
+    }
+    .contact-bx {
+        padding: 30px 23px 30px 21px;
+        gap: 15px;
+    }
+
+    .news-section {
+        padding: 50px 0;
+    }
+    .news-card__title .icon {
+        width: 45px;
+    }
+    .news-card__title .title-txt h4 {
+        font-size: 14px;
+    }
+    .news-card__title .title-txt h5 {
+        font-size: 11px;
+    }
+    .news-card {
+        padding: 12px 11px 15px;
+    }
+    .news-card__body h4 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .news-card__body p {
+        font-size: 12px;
+    }
+    .news-card__title {
+        margin-bottom: 18px;
+        gap: 7px;
+    }
+
+    .footer-logo {
+        width: 55px;
+    }
+    .footer-menu ul li a {
+        font-size: 16px;
+    }
+    .footer-social ul li a {
+        font-size: 22px;
+    }
+    .footer-section {
+        padding: 40px 0 60px;
+    }
+
 }
 
 
 @media (max-width: 575px) {
- 
+    .container {
+        padding: 0 5%;
+    }
+
+
+    
 }
 
 
 @media (max-width: 390px) {
- 
+    .hero-content .h1 {
+        font-size: 18px;
+    }
+    .hbp {
+        height: 5px;
+    }
+    .main-menu ul li a {
+        font-size: 11px;
+    }
+    .hero-content p {
+        font-size: 15px;
+    }
+    .service-card {
+        padding: 20px 20px;
+    }
 }

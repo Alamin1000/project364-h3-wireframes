@@ -25,28 +25,54 @@
   });
 
   // owl-carousel
-  $(".brand-active").owlCarousel({
+  $(".trust-slider-active").owlCarousel({
     loop: true,
-    margin: 50,
+    margin: 0,
     responsiveClass: true,
     nav: false,
+    dots: false,
+    center: true,
+    autoWidth: true,
     navText: [
-      '<span class="fas fa-chevron-left fa-2x"></span>',
-      '<span class="fas fa-chevron-right fa-2x"></span>',
+      '<i class="fas fa-chevron-left"></i>',
+      '<i class="fas fa-chevron-right"></i>',
+    ],
+    responsive: {
+      0: {},
+      600: {},
+      1000: {},
+    },
+  });
+  $(".team-slider-active").owlCarousel({
+    loop: true,
+    margin: 48,
+    responsiveClass: true,
+    nav: true,
+    dots: false,
+    items: 3,
+    navText: [
+      '<i class="far fa-chevron-right"></i>',
+      '<i class="far fa-chevron-left"></i>',
     ],
     responsive: {
       0: {
-        items: 1,
         nav: false,
+        dots: true,
+        margin: 10,
+        items: 2,
       },
-      600: {
-        items: 3,
+      767: {
         nav: false,
+        dots: true,
+        margin: 20,
+      },
+      991: {
+        nav: true,
+        dots: false,
       },
       1000: {
-        items: 4,
-        nav: false,
-        loop: false,
+        nav: true,
+        dots: false,
       },
     },
   });

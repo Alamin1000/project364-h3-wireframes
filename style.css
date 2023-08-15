@@ -584,10 +584,15 @@ p:last-child{
   border-radius: 6px;
   border: 1px solid #D496FE;
   background: #31194D;
+  display: block;
 }
 .team-card__image {
 	border-radius: 18px;
   position: relative;
+}
+.team-card__image .image-outer {
+  border-radius: inherit;
+  display: block;
 }
 .team-card__image .img {
   border-radius: inherit;

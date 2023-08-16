@@ -76,6 +76,48 @@
       },
     },
   });
+  $(".fs-slider-active").owlCarousel({
+    loop: true,
+    margin: 20,
+    responsiveClass: true,
+    nav: true,
+    dots: false,
+    items: 3,
+    dotsEach: 1,
+    navText: [
+      '<i class="far fa-chevron-right"></i>',
+      '<i class="far fa-chevron-left"></i>',
+    ],
+    responsive: {
+      0: {
+        nav: false,
+        dots: false,
+        margin: 10,
+        items: 2,
+        autoWidth: true,
+        loop: false,
+      },
+      575: {
+        nav: false,
+        dots: true,
+        margin: 10,
+        items: 2,
+      },
+      767: {
+        nav: false,
+        dots: true,
+        margin: 20,
+      },
+      991: {
+        nav: true,
+        dots: false,
+      },
+      1000: {
+        nav: true,
+        dots: false,
+      },
+    },
+  });
 })(jQuery);
 
 $(document).ready(function () {

@@ -8,6 +8,9 @@
     .header-in {
         padding: 30px 0 30px;
     }
+    .header-section.sticky-logo-header.sticky .header-in {
+        margin-top: -109px;
+      }
 
     .pd-profile-image {
         margin-left: 0;
@@ -96,6 +99,9 @@
         width: 41px;
         margin-left: -9px;
     }
+    .header-section.sticky-logo-header.sticky .header-in {
+        margin-top: -72px;
+    }
     .main-menu ul li a {
         font-size: 12px;
     }
@@ -103,8 +109,11 @@
     .header-in {
         padding: 25px 0;
     }
+    .header-logo {
+        margin-bottom: 5px;
+    }
     .main-menu {
-        padding: 20px 0 15px;
+        padding: 15px 0 15px;
     }
     .hbp {
         height: 8px;

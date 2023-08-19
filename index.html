@@ -27,38 +27,9 @@
     <!-- preloader-end -->
     <!-- main-wrap -->
     <div class="main-wrap">
-      <!-- offcanvas-start -->
-      <div class="offcanvas-menu">
-        <ul class="offmenu" id="menuParent">
-          <a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
-          <li class="active"><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li class="dropdown">
-            <a href="#" data-bs-toggle="collapse" data-bs-target="#drop-menu1"
-              >OUR HORSES</a
-            >
-            <div
-              class="dropdown-menu-custom collapse"
-              id="drop-menu1"
-              data-bs-parent="#menuParent"
-            >
-              <ul>
-                <li><a href="#">YEARLINGS</a></li>
-                <li><a href="#">2 YEAR OLDS</a></li>
-                <li><a href="#">3 YEAR OLD PLUS</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="#">LATEST NEWS</a></li>
-          <li><a href="#">CONTACT & FIND US</a></li>
-        </ul>
-      </div>
-      <div class="offcanvas-overlay"></div>
-      <!-- offcanvas-start-end -->
-
       <!-- header-section -->
-      <header class="header-section border-bottom-0">
-        <div class="header-in pb-0">
+      <header class="header-section border-bottom-0 sticky-logo-header">
+        <div class="header-in pb-0 shadow-none">
           <div class="container">
             <div class="header-section__inner">
               <a href="index.html" class="header-logo">
@@ -66,18 +37,20 @@
               </a>
               <div class="main-menu">
                 <ul>
-                  <li><a href="services.html">Services</a></li>
+                  <li><a href="#services-section">Services</a></li>
                   <li><a href="#">Network</a></li>
-                  <li><a href="#">Service providers</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li>
+                    <a href="#service-providers-section">Service providers</a>
+                  </li>
+                  <li><a href="#about-section">About</a></li>
+                  <li><a href="#contact-section">Contact</a></li>
                 </ul>
               </div>
             </div>
           </div>
-        </div>
-        <div class="hbp">
-          <span class="pro"></span>
+          <div class="hbp">
+            <span class="pro"></span>
+          </div>
         </div>
       </header>
       <!--End header-section -->
@@ -164,7 +137,7 @@
         <!-- hero-section end -->
 
         <!-- services-section -->
-        <section class="service-section">
+        <section class="service-section" id="services-section">
           <div class="container">
             <div class="services-section__inner">
               <div class="services-section__title sec-title cont-blk">
@@ -293,7 +266,7 @@
         <!-- trust-section-end -->
 
         <!-- provider-section -->
-        <section class="provider-section pb-0">
+        <section class="provider-section pb-0" id="service-providers-section">
           <div class="container">
             <div class="provider-section__inner">
               <div class="provider-section__title sec-title cont-blk">
@@ -330,7 +303,7 @@
                       <h4>Want to be a service provider?</h4>
                       <p>Fill out our application form</p>
                     </div>
-                    <a href="#" class="sq-rt-btn">
+                    <a href="services.html" class="sq-rt-btn">
                       <i class="fal fa-long-arrow-right"></i>
                     </a>
                   </div>
@@ -342,7 +315,7 @@
         <!-- provider-section-end -->
 
         <!-- about-section -->
-        <section class="about-section pb-0">
+        <section class="about-section pb-0" id="about-section">
           <div class="container">
             <div class="about-section__inner">
               <div class="about-section__title sec-title cont-blk">
@@ -555,7 +528,7 @@
         <!-- team-section-end -->
 
         <!-- contact-section -->
-        <section class="contact-section pb-0">
+        <section class="contact-section pb-0" id="contact-section">
           <div class="container">
             <div class="contact-section__inner">
               <div class="contact-section__title sec-title cont-blk">
@@ -681,9 +654,11 @@
                 <div class="footer-menu">
                   <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Service providers</a></li>
-                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li>
+                      <a href="#service-providers-section">Service providers</a>
+                    </li>
+                    <li><a href="#contact-section">Contact us</a></li>
                   </ul>
                 </div>
               </div>

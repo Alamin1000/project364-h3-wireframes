@@ -24,6 +24,36 @@
     }
   });
 
+  // sticky-header
+  var wind = $(window);
+  var sticky = $(".header-section");
+  wind.on("scroll", function () {
+    var scroll = wind.scrollTop();
+    if (scroll < 5) {
+      sticky.removeClass("sticky");
+    } else {
+      sticky.addClass("sticky");
+    }
+  });
+  $(window).on("load resize", function () {
+    $(".header-section").height($(".header-in").outerHeight());
+    $("body").css("--header-height", $(".header-in").outerHeight() + "px");
+  });
+
+  //page-progress
+  {
+    wind.scroll(function () {
+      let documentHeight = document.body.scrollHeight;
+      let documentScrolled = window.scrollY;
+      let windowHeight = window.innerHeight;
+      let documentProgress = documentScrolled / (documentHeight - windowHeight);
+      // console.log(documentHeight);
+      // console.log(documentScrolled);
+      // console.log(windowHeight);
+      $(".hbp .pro").css({ width: documentProgress * 100 + "%" });
+    });
+  }
+
   // owl-carousel
   $(".trust-slider-active").owlCarousel({
     loop: true,
